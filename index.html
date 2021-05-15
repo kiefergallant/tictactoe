@@ -1,39 +1,42 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Tic Tac Toe</title>
-    <link rel="stylesheet" href="./styles.css">
-  </head>
-  <body>
-    <div class="container">
+
+<head>
+  <meta charset="utf-8">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <div class="container">
 
     <header>
-      <h1 align= 'center'>Tic Tac Toe</h1>
+      <h1 align='center'>Tic Tac Toe</h1>
     </header>
 
-    <table align='center'>
+    <table class='everything' align='center'>
       <tr>
-        <td id="one" ></td>
-        <td id="two" ></td>
-        <td id="three" ></td>
+        <td onclick="changeSquare('one')" id="one"></td>
+        <td onclick="changeSquare('two')" id="two"></td>
+        <td onclick="changeSquare('three')" id="three"></td>
       </tr>
 
       <tr>
-        <td id="four" ></td>
-        <td id="five" ></td>
-        <td id="six" ></td>
+        <td onclick="changeSquare('four')" id="four"></td>
+        <td onclick="changeSquare('five')" id="five"></td>
+        <td onclick="changeSquare('six')" id="six"></td>
       </tr>
 
       <tr>
-        <td id="seven" ></td>
-        <td id="eight" ></td>
-        <td id="nine" ></td>
+        <td onclick="changeSquare('seven')" id="seven"></td>
+        <td onclick="changeSquare('eight')" id="eight"></td>
+        <td onclick="changeSquare('nine')" id="nine"></td>
       </tr>
     </table>
 
 
 
-  <script src="./scripts.js" charset="utf-8"></script>
-  </body>
+    <script src="./scripts.js" charset="utf-8"></script>
+</body>
+
 </html>
